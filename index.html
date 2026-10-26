@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ORCA × CANHCUT — THE COSMIC CHART</title>
+<meta name="description" content="Hai lá số, hai tính cách, một hành trình khám phá.">
+<link rel="icon" href="assets/orca.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Bỏ qua, đến nội dung</a>
+<header class="hero" id="top">
+  <div class="stars" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <p class="sub">THE COSMIC CHART</p>
+    <h1>ORCA × CANHCUT</h1>
+    <p class="lede">Hai lá số. Hai tính cách. Một hành trình khám phá.</p>
+    <div class="duo" aria-hidden="true">
+      <img class="m orca" src="assets/orca.svg" alt="">
+      <div class="wave"></div>
+      <img class="m peng" src="assets/penguin.svg" alt="">
+    </div>
+    <a class="btn" href="#charts" data-scroll>Khám phá lá số của chúng tôi</a>
+  </div>
+</header>
+<nav class="nav" aria-label="Các phần">
+  <a href="#charts" data-scroll>Lá số</a><a href="#tuvi" data-scroll>Tử Vi Đẩu Số</a><a href="#battu" data-scroll>Bát Tự</a><a href="#synastry" data-scroll>Tương hợp</a>
+</nav>
+<main id="main">
+  <section id="charts" class="sec"><h2>Hai con người, hai lá số</h2><div class="notice" id="notice" role="note"></div><div class="grid2" id="profiles"></div></section>
+  <section id="tuvi" class="sec"><h2>Tử Vi Đẩu Số</h2><p class="intro" id="tuvi-intro"></p><div class="grid2" id="tuvi-cols"></div></section>
+  <section id="battu" class="sec"><h2>Bát Tự — Tứ Trụ</h2><p class="intro" id="batu-intro"></p><div class="grid2" id="batu-cols"></div></section>
+  <section id="synastry" class="sec"><h2>ORCA × CANHCUT — Tương hợp trong mối quan hệ</h2><p class="intro" id="syn-intro"></p><div class="grid2" id="syn-cols"></div><div id="syn-synth"></div></section>
+  <section class="sec disclaimer"><h2>Cách đọc trang web này</h2><p id="disclaimer"></p></section>
+</main>
+<footer class="closing">
+  <div class="duo small" aria-hidden="true"><img class="m orca" src="assets/orca.svg" alt=""><img class="m peng" src="assets/penguin.svg" alt=""></div>
+  <p class="close-line">Different worlds. Different rhythms. One story still being written.</p>
+  <button class="btn" id="to-top" type="button">Về đầu trang</button>
+</footer>
+<dialog id="lightbox" aria-label="Xem lá số"><button id="lb-close" type="button" aria-label="Đóng khung xem lá số">Đóng</button><div class="lb-scroll"><img id="lb-img" alt=""></div></dialog>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
